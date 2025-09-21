@@ -7,7 +7,7 @@
 4. Liquibase etc...
 
 ## Initial plan (draft)
-There will be 2 separate service. One service will be implemented to store icons uploaded by Product Designer. The other service will be implemented to successfully unique icon sets as an end goal. Postgres will be used to keep metadata of uploaded icons and their corresponding information like to which tags it is relating to etc. The other table will be used for operational purpose and to store unique sets of generated icon sets. And before each icons set generation it will be checked from there. minIO or some other alternatives (S3 etc) will be used to store .svg / .png etc icons and generated icons.   
+There will be 2 separate services. One service will be implemented to store icons uploaded by Product Designer. The other service will be implemented to successfully unique icon sets as an end goal. Postgres will be used to keep metadata of uploaded icons and their corresponding information like to which tags it is relating to etc. The other table will be used for operational purpose and to store unique sets of generated icon sets. And before each icons set generation it will be checked from there. minIO or some other alternatives (S3 etc) will be used to store .svg / .png etc icons and generated icons.   
 
 ## DB Design
 - icons
