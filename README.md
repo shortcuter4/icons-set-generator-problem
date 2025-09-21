@@ -28,8 +28,8 @@ There will be 2 separate services. One service will be implemented to store icon
   -  file_path ---> minIO/S3 url (e.g., ://bucket/icons/1.svg)
   -  etc... (created_date, created_by, usage_count etc..)
 
--  tags
-  - id (PK)
+- tags
+  -  id (PK)
   - name
 
 - icon_tags
