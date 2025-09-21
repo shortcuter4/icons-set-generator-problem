@@ -27,12 +27,15 @@ There will be 2 separate services. One service will be implemented to store icon
   -  tags[]
   -  file_path ---> minIO/S3 url (e.g., ://bucket/icons/1.svg)
   -  etc... (created_date, created_by, usage_count etc..)
+
 -  tags
   - id (PK)
   - name
+
 - icon_tags
   - icon_id
   - tag_id
+
 - icon_sets
   - id
   - icon_ids[]
@@ -41,6 +44,7 @@ There will be 2 separate services. One service will be implemented to store icon
   - signature_hash
   - img_file_url
   - etc...
+
 - icon_sets_items
   - set_id
   - icon_id
