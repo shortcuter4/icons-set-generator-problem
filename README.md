@@ -61,4 +61,11 @@
     
 ## Flow Diagrams
 ### Sequence flow
+1. Case 1: Upload File Scenario 
+
+  ![Upload File Scenario - Sequence Flow Diagram](upload-file.png)
+
+2. Case 2: Generate Icon Set
+
+  ![Generate Icon Set - Sequence Flow Diagram](generate-icons-set.png)
 
