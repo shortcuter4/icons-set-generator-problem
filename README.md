@@ -8,6 +8,11 @@ We need to put scalability into consideration in designing and implementation ch
 2. Proposed logic (algorithms) are executed in DB-layer rather than application-layer for faster calculations/executions
 3. Careful choices (trade-off) to have capability to handle everything in large datasets.
 
+### Topics
+1. Strategies on DB design change
+2. Trade-offs on different implementation strategies (bloom filter, roaring bitmaps etc.)
+3. Proposed approach in calculations (procedures, functions etc)
+
 ## Initial draft & changes in approach
 In initial draft, I tried to store sorted array of generated icon_ids[] for duplicate check, and used GIN index on tags to make sure if satisfies overlap percentage. However, even though the initial proposed solution made sense for small-mid size sets, it will be bottleneck for large data sets and in the problem scope we need to make sure there will not be any issue in terms of user experience or techincal side. Therefore, there needs to be change in DB schema design and additional changes in implementation approaches. 
 ## Flow Diagrams
